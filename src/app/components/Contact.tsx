@@ -284,6 +284,10 @@ const Contact = () => {
             Usually responds within 24 hours
           </span>
                 </div>
+                {/* Footer */}
+                <motion.div className="mt-20 pt-8 border-t border-gray-200 dark:border-gray-700">
+                    <p>© {new Date().getFullYear()} Kondrolla Dinesh Reddy. All rights reserved.</p>
+                </motion.div>
             </motion.div>
         </section>
     );
